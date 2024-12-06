@@ -27,7 +27,7 @@ package Message;
 public class App {
     public static void main(String[] args) {
         User[] arrayUser = UserService.create4Users();
-//        String[] mesages = MessageService.create4Message(arrayUser[0], arrayUser[1], arrayUser[2], arrayUser[3]);
+        String[] mesages = MessageService.create4Message(arrayUser[0], arrayUser[1], arrayUser[2], arrayUser[3]);
         for(int i = 0; i < arrayUser.length; i++) {
             System.out.println(arrayUser[i].getNick());
             System.out.println(arrayUser[i].getName());
@@ -36,8 +36,8 @@ public class App {
             System.out.println();
         }
         System.out.println();
-//        for(int i = 0; i < mesages.length; i++) {
-//            System.out.println(mesages[i]);
-//        }
+        for(int i = 0; i < mesages.length; i++) {
+            System.out.println(mesages[i]);
+        }
     }
 }
