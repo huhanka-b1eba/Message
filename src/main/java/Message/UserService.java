@@ -1,4 +1,4 @@
-import Message.User;
+package Message;
 
 public class UserService {
     public static User[] create4Users(){
