@@ -1,5 +1,14 @@
 package Message;
 
-public class User {
+/*- Пользователь(Саня)
+    - ник найм
+    - имя пользователя
+    - телефон
+    - пароль
+ */
 
+public class UserService {
+    public static void create4Users() {
+
+    }
 }
