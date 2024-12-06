@@ -1,48 +1,12 @@
 package Message;
 
-public class User {
-    private String nick;
-    private int phone;
-    private String password;
-    private String name;
-
-    public User() {}
-    public User(String nick, String name, int phone, String password) {
-        this.nick = nick;
-        this.name = name;
-        this.phone = phone;
-        this.password = password;
-    }
-
-    public int getPhone() {
-        return phone;
-    }
-
-    public String getNick() {
-        return nick;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setNick(String nick) {
-        this.nick = nick;
-    }
-
-    public void setPhone(int phone) {
-        this.phone = phone;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
+public class UserService {
+   public static User[] create4Users(){
+        User[] arrayUser = {
+                new User("Cheater777", "Aleksander", "89234264177", "qwerty123"),
+                new User("aboba", "Aigiz", "89963359020", "Bashiriatop"),
+                new User("uecnheca", "Anastasia", "89993325676", "Nastya_2006"),
+                new User("kto ia?", "nikto", "00000000000", "Z1_Z2_Z3_Z4__ZZZZZZZZZZZ")};
+        return arrayUser;
+   }
 }
